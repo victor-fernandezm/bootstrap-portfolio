@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Blog</h1><br>
+    <div class="row g-2">
+        <!-- <app-blog-article [article]="article" *ngFor="let article of blogArticles"></app-blog-article> -->
+        <div class="col-4 col-lg-3" *ngFor="let article of blogArticles">
+            <app-blog-article [article]="article"></app-blog-article>
+        </div>
+    </div>
+</div>
